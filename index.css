@@ -1,0 +1,280 @@
+@media (min-width:100px) and (max-width:800px){
+    body{
+        background-color: rgb(0, 0, 0);
+        margin: 0;
+        padding: 0;
+    }
+    #navbar{
+        display:flex;
+    }
+    #navbtn{
+        height: 50px;
+        width: 100px;
+        background-color: rgb(20, 20, 0);
+        font-size: 11px;
+        color: bisque;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 2px;
+        border: 0.5px solid bisque;
+    }
+    #navbtn:hover{
+        height: 50px;
+        width: 120px;
+        background-color: rgb(206, 206, 147);
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #topdiv{
+        display: inline-flex;
+        width: 90%;
+        background-color: rgb(49, 51, 51);
+        padding-left:10%;
+        gap:10px
+
+ 
+    }
+    #toptext{
+            font-size: 30px;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(230, 230, 231);
+
+        }
+    #subtoptext{
+            font-size: 30px;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ca522d;
+        }
+        #midheading{
+            font-size: 35px;
+            font-family: "Acme", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color:bisque;
+        }
+        #homepagecentralblock{
+            height:230px;
+            width: 400px;
+            border: 1px solid bisque;
+            overflow: hidden;
+        }
+        #cover{
+            height: 230px;
+        }
+        #downdiv{
+            margin-top: 20px;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 10px;
+            row-gap: 70px;
+        }
+        #box1{
+            margin-left: 5.5px;
+            height:130px;
+            width: 190px;
+            border: 1px solid bisque;
+        }
+        #box2{
+            margin-left: 5.5px;
+            height:130px;
+            width: 190px;
+            border: 1px solid bisque;
+        }
+        #subtitle{
+            margin-left:20px;
+            top: 5px;
+            font-family: "Sarabun", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            color: antiquewhite;
+        }
+        #downdivtext{
+            font-size: 30px;
+            font-family: "Acme", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color:bisque;
+        }
+}
+@media (min-width:800px){
+    body { 
+        background-color: bisque;
+        margin: 0;
+        padding: 0;
+      display: grid;
+      grid-template-areas: 
+        "header header header"
+        "nav article ads"
+        "nav footer footer";
+      grid-template-rows: 137px 1fr 50px;  
+      grid-template-columns: 20% 1fr 15%;
+      grid-row-gap: 2px;
+      grid-column-gap: 2px;
+      height: 100vh;
+      margin: 0;
+      }  
+    header{
+        padding: 1.2em;
+        background: rgb(0, 0, 0);
+        padding: 0;
+    } footer{
+        padding: 1.2em;
+        background: rgb(0, 0, 0)
+    }article{
+        padding: 1.2em;
+        background: rgb(0, 0, 0)
+    }
+    nav{
+        padding: 1.2em;
+        background: rgb(0, 0, 0)
+    } 
+    div {
+      padding:1.2em;
+      background: rgb(0, 0, 0);
+      }
+    #pageHeader {
+      grid-area: header;+
+    
+      }
+    #pageFooter {
+      grid-area: footer;
+      }
+    #mainArticle { 
+      grid-area: article;
+      }
+    #mainNav { 
+      grid-area: nav; 
+      padding-left:10px;
+      }
+    #siteAds { 
+      grid-area: ads;
+      background-color: antiquewhite;
+      } 
+    
+    #navbar{
+        display:grid;
+    }
+    #navbtn{
+        height: 100px;
+        width: 290px;
+        background-color: rgb(20, 20, 0);
+        font-size: 24px;
+        color: bisque;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 2px;
+        border: 0.5px solid bisque;
+    }
+    #navbtn:hover{
+        height: 100px;
+        width: 295px;
+        background-color: rgb(206, 206, 147);
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #topdiv{
+        display: inline-flex;
+        width: 55%;
+        background-color: rgb(49, 51, 51);
+        padding-left:45%;
+        gap:10px
+    
+    
+    }
+    #toptext{
+            font-size: 30px;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(230, 230, 231);
+    
+        }
+    #subtoptext{
+            font-size: 30px;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #ca522d;
+        }
+        #midheading{
+            font-size: 35px;
+            font-family: "Acme", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color:bisque;
+            margin-left: 500px;
+        }
+        #homepagecentralblock{
+            margin-left: 15px;
+            height:200px;
+            width: 1150px;
+            display: flex;
+            gap:40px;
+            border: 1px solid bisque;
+    
+        }
+        #homepagecentralblockcontainer{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+    
+        }
+        #cover{
+            height: 200px;
+            width: 250px;
+        }
+        #downdiv{
+            margin-top: 20px;
+            display: flex-wrap;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 10px;
+            row-gap: 70px;
+        }
+        #box1{
+            margin-left: 5.5px;
+            height: 135px;
+            width: 190px;
+            border: 1px solid bisque;
+        }
+        #box2{
+            margin-left: 5.5px;
+            height:135px;
+            width: 190px;
+            border: 1px solid bisque;
+        }
+        #subtitle{
+            margin-top: 20px;
+            margin-left:20px;
+            top: 5px;
+            font-family: "Sarabun", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            color: antiquewhite;
+        }
+        #downdivtext{
+            font-size: 30px;
+            font-family: "Acme", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color:bisque;
+            margin-left: 520px;
+        }
+        #container{
+            display: flex;
+        }
+    
+}
